@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+#define aarambham main
+#define tesuko return
+#define SUNNA 0
+#define idhiAyitey if
+#define ayinandthavaraku while
+#define GadidhaGuddu void
+
+typedef int Sankhya;
+typedef char *Vakhya;
+
+// add two Sankhyas
+Sankhya add(Sankhya numberOne, Sankhya numberTwo) {
+    tesuko numberOne + numberTwo;
+}
+
+Sankhya substract(Sankhya numberOne, Sankhya numberTwo) {
+    tesuko numberOne - numberTwo;
+}
+
+// display Vakhya followed by Sankhya
+GadidhaGuddu dharshan(Vakhya statement, Sankhya number) {
+    printf("%s%d.\n", statement, number);
+}
+
+GadidhaGuddu dharshanVakhya(Vakhya statement) {
+    printf("%s", statement);
+}
+
+GadidhaGuddu dharshanSankhya(Sankhya number) {
+    printf("%d", number);
+}
+
+GadidhaGuddu dharshanBreak() {
+    printf("\n");
+}
+
